@@ -6,6 +6,9 @@ body {
   font-family: "Karla", sans-serif;
   margin: 0;
 }
+main {
+  padding: 36px;
+}
 
 .header {
   display: flex;
@@ -34,6 +37,7 @@ body {
   display: grid;
   grid-template: 100% 100% / 1fr 1fr;
   gap: 17px;
+  margin-bottom: 17px;
 }
 
 .form--label {
@@ -64,4 +68,5 @@ body {
 
 .meme--image {
   max-width: 100%;
+  border-radius: 3px;
 }
